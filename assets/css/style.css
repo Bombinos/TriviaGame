@@ -1,0 +1,14 @@
+body{
+    background-image: url("../images/one12.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+    width: 100%;
+    position: absolute;
+    height:0px;
+}
+
+p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5vw;
+}

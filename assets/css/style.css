@@ -16,7 +16,7 @@ body{
 }
 
 #mainTop {
-    background-color: black;
+    background-color: darkblue;
     opacity: .7;
 }
 
@@ -29,4 +29,10 @@ body{
 #startB {
     text-align: center;
     width: 100%;
+}
+
+.answer {
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 10px;
 }

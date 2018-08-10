@@ -42,7 +42,7 @@ $(document).ready(function() {
 });
 function generateTimeoutLoss() {
     unansweredTotal++;
-    gameHTML = "<p class='text-center timer-p' id='timerText'>Time Remaining: <span class='timer' id='timer'>" + counter + "</span></p>" + "<p class='text-center' id='gameText'>Time's Up. The correct answer was: " + correctAns[qCounter] + "</p>" + "<img class='center-block img-wrong' src='img/x.png'>";
+    gameHTML = "<p class='text-center timer-p' id='timerText'>Time Remaining: <span class='timer' id='timer'>" + counter + "</span></p>" + "<p class='text-center' id='gameText'>Time's Up. The correct answer was: " + correctAns[qCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/creeper.gif'>";
     $("#mainWindow").html(gameHTML);
     setTimeout(hold, 4000); 
 }
@@ -55,7 +55,7 @@ function generateWin() {
 }
 function generateLoss() {
     incorrectTotal++;
-    gameHTML = "<p class='text-center timer-p' id='timerText'>Time Remaining: <span class='timer' id='timer'>" + counter + "</span></p>" + "<p class='text-center' id='gameText'>Wrong! The correct answer is: " + correctAns[qCounter] + "</p>" + "<img class='center-block img-wrong' src='img/x.png'>";
+    gameHTML = "<p class='text-center timer-p' id='timerText'>Time Remaining: <span class='timer' id='timer'>" + counter + "</span></p>" + "<p class='text-center' id='gameText'>Wrong! The correct answer is: " + correctAns[qCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/creeper.gif'>";
     $("#mainWindow").html(gameHTML);
     setTimeout(hold, 4000); 
 }
@@ -118,7 +118,7 @@ var gameHTML;
 var counter = 12;
 var questionArr = ["When you throw an egg and break it, there is a chance that it will spawn a ________?", "A method of harvesting wheat is:", "What can help to deter Creepers from getting near your home?", "What must happen in order to for obsidian to be created in Minecraft?"];
 var answerArr = [["Creeper", "Duck", "Chicken", "Egg Yolk"], ["Hit the wheat with your hand or with a tool", "Dump water on it", "Push it with a piston", "All of the above"], ["An Iron Golem", "A sign that makes fun of the fact that Creepers have no arms", "Cats", "A Creeper head on a fence post"], ["Water must touch a lava source block", "A water flow touches a lava flow", "Felsic lava extruded from a volcano must cool rapidly with minimal crystal growth", "Place a granite block into a furnace and heat it with lava"]];
-var imageArr = ["", "", "", ""];
+var imageArr = ["<img class='center-block img-right' height='200' width='200' src='assets/images/chicken.png'>", "<img class='center-block img-right' height='210' width='280' src='assets/images/wheat.png'>", "<img class='center-block img-right' src='assets/images/Cats.gif'>", "<img class='center-block img-right' src='assets/images/Obsidian.png'>"];
 var correctAns = ["C. Chicken", "D. All of the above", "C. Cats", "A. Water must touch a lava source block"];
 var qCounter = 0;
 var answerSelected;

@@ -23,7 +23,8 @@ body{
 #mainBottom {
     background-color: darkblue;
     opacity: .7;
-    height: 35vw;
+    height: 45.55vw;
+    position: absolute;
 }
 
 #startB {
@@ -36,3 +37,4 @@ body{
     opacity: 0.9;
     border-radius: 10px;
 }
+

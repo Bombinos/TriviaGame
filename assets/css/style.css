@@ -8,7 +8,25 @@ body{
     height:0px;
 }
 
-p {
+#title {
     font-family: 'Press Start 2P', cursive;
     font-size: 2.5vw;
+    padding: 5% 0% 0% 1%;
+
+}
+
+#mainTop {
+    background-color: black;
+    opacity: .7;
+}
+
+#mainBottom {
+    background-color: darkblue;
+    opacity: .7;
+    height: 35vw;
+}
+
+#startB {
+    text-align: center;
+    width: 100%;
 }

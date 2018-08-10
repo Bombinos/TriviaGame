@@ -23,13 +23,12 @@ body{
 #mainBottom {
     background-color: darkblue;
     opacity: .7;
-    height: 45.55vw;
-    position: absolute;
+    height: 45.58vw;
+    
 }
 
 #startB {
     text-align: center;
-    width: 100%;
 }
 
 .answer {
